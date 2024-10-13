@@ -41,5 +41,12 @@
 # positivenegative(num)
 
 #activity 4
+num=int(input("Enter the number to check whether it is even or odd==>"))
+def evenodd(x):
+    if x%2==0:
+        print("The number is even number",x)
+    else:
+        print("The number is an odd number",x)
 
+evenodd(num)
     
